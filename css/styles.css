@@ -761,7 +761,26 @@ img {
         gap: 24px;
     }
 }
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 768px) {
+    .footer {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .footer-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 584px;
+    }
+    .logo-text-footer {
+        margin-right: 24px;
+    }
+    .footer-icon-hero {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 70px;
+    }
+
+}
 /* Modal */
 .backdrop {
     width: 100%;
