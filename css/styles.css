@@ -31,21 +31,21 @@ img {
     margin: 0 auto;
 } 
 /* Mobile screen */
-.container {
-    max-width: 320px;
-    padding-right: 16px;
-    padding-left: 16px;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (max-width: 767.98px) {
+    .container {
+        max-width: 320px;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-
 /* Tablet screen */
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
     }
 }
-
 /* Main Page screen */
 @media screen and (min-width: 1158px) {
     .container {
@@ -327,6 +327,10 @@ img {
     .features-text {
         font-weight: 500;
     }
+    .features-section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
 }
 @media only screen and (min-width: 768px) {
     .icon-list {
@@ -440,6 +444,10 @@ img {
     }
     .team-list {
         flex-basis: auto;
+    }
+    .team-section {
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -725,24 +733,32 @@ img {
         padding-top: 96px;
         padding-bottom: 96px;
     }
-    .form-footer {
-        flex-direction: column;
-    }
     .footer-container {
-        display: block;
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        margin: 0 auto;
     }
     .logo-text-footer {
         text-align: center;
-        margin: 0 auto;
-        padding-bottom: 72px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 72px;
     }
     .footer-icon-hero {
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
     }
-    .footer-container {
+    .text-subscribe {
         text-align: center;
+    }
+    .form-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
     }
 }
 @media only screen and (min-width: 768px)
