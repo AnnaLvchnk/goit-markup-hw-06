@@ -189,6 +189,13 @@ img {
         letter-spacing: 0.04em; 
     }
 }
+@media only screen and (min-width: 1158px) {
+    .header-contact {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+}
 /* Hero section */
 .hero-section {
     padding: 188px 0;
