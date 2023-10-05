@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    padding: 0;
 }
 a {
     text-decoration: none;
@@ -183,17 +184,23 @@ img {
         flex-direction: column;
         gap: 12px;
     }
+    .header-inner {
+        align-items: center;
+    }
     .adress-link {   
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em; 
+        padding: 0;
     }
 }
 @media only screen and (min-width: 1158px) {
     .header-contact {
-        display: flex;
         flex-direction: row;
         gap: 40px;
+    }
+    .adress-link {
+        font-style: 16px;
     }
 }
 /* Hero section */
