@@ -223,11 +223,10 @@ img {
     line-height: 1.07;
     letter-spacing:0.02em;
     text-align: center;
-    max-width: 288px;
+    max-width: 217px;
     margin: 0 auto;
     margin-bottom: 72px;
     text-transform: capitalize;
-    padding: 0 50px;
 }
 .hero-button {
     background-color: #4d5ae5;
@@ -1094,16 +1093,6 @@ img {
     }
 }  
 /* Mobile menu */
-@media only screen and (min-width: 768px) {
-    .mobile-container {
-        display: none;
-    }
-}
-@media only screen and (min-width: 1158px) {
-    .mobile-container {
-        display: none;
-    }
-}
 .mobile-container {
     display: flex;
     flex-direction: column;
@@ -1186,4 +1175,15 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+    .mobile-container {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+    .mobile-container {
+        display: none;
+    }
 }
