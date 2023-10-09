@@ -36,8 +36,6 @@ img {
     .container {
         max-width: 320px;
         padding: 0 16px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 /* Tablet screen */
@@ -260,8 +258,6 @@ img {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image/dark-bg_tab.jpg);
         max-width: 768px;
-        padding-left: 112px;
-        padding-right: 112px;
     }
     .hero-title {
         font-size: 56px;
