@@ -274,6 +274,8 @@ img {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image/people-office_desk.jpg);
         max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
     }
     .hero-title {
         font-size: 56px;
