@@ -677,7 +677,7 @@ img {
     align-items: baseline;
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 16px;
 }
 .logo-text-footer {
     margin-right: 120px;
@@ -803,11 +803,9 @@ img {
         padding-bottom: 96px;
     }
     .footer-container {
-        display: flex;
-        align-items: baseline;
+        flex-direction: column;
         flex-wrap: wrap;
-        margin: 0 auto;
-        padding: 0 16px;
+        align-items: center;
     }
     .logo-text-footer {
         text-align: center;
@@ -828,6 +826,8 @@ img {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
         gap: 24px;
     }
 }
@@ -1181,7 +1181,6 @@ img {
         display: none;
     }
 }
-
 @media only screen and (min-width: 1158px) {
     .mobile-container {
         display: none;
